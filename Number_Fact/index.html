@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Fact App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Number Facts</h1>
+        <p class="subtitle">Enter a number to discover an interesting fact</p>
+
+        
+        <div class="input-group">
+            <label for="numberInput">Number</label>
+            <input 
+                id="numberInput"
+                type="number"
+                placeholder="Enter a number"
+                aria-label="Enter a number"
+            >
+            <button id="getFactBtn">Get Fact</button>
+        </div>
+
+       
+        <div class="result-container" id="result">
+            <p class="placeholder-text">
+                Your number fact will appear here.
+            </p>
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
